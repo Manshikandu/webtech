@@ -1,0 +1,108 @@
+/* Universal selector */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* type selector */
+body{
+    background-color: beige;
+    background-image: url(images/lefttt.jpg),url(images/right.jpg),url(images/bottomleft.jpg),url(images/bottomright.webp) ;
+    background-position: left top,right top,left bottom,right bottom;
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat; 
+     /* background-color: #a339a3; */
+    /* background-image:url(sagar.jpg) ;
+    background-position: center center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     */
+
+}
+/* ID selector */
+#container{
+    width: 1320px;
+    margin: auto auto;
+    min-height: 2500px;
+    background-color: rgb(236, 214, 185);
+    border-radius:0px 50px 0px 50px ;
+    
+}
+/* CLass selector */
+.row{
+    min-height: 10px;
+}
+.col100{
+    width: 100%;
+    float: left;
+    
+    /* height: 50px;    
+    background-color: aliceblue; */
+}
+.col75{
+    width: 75%; 
+    float: right;}
+.col50{
+    width: 50%; 
+    float: left;}
+.col25
+    {width: 20%;
+     float:left ;
+     /* height: 20px; */
+    }
+    .col25 img{
+     float: left;
+    }
+.clear{clear: both;}
+
+.banner{
+    width: 100%;
+    min-height: 150 px;
+    height: 150px;
+    background-color: #888285;
+    background-image: url(images/grave-of-the-fireflies-wallpaper-thumb.jpg);
+}
+#social{
+    position: fixed;
+    top: 200px;
+    width: 50px;
+    min-height: 150px;
+    background-color: blueviolet;
+    right: 0px;
+}
+/* descendant selector */
+#social ul{
+    list-style-type: none;
+}
+#social ul li{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 15px;
+    /* border-bottom: 1px inset; */
+
+}
+#topmenu{
+    width: 97%;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 0;
+}
+#topmenu a{
+    text-decoration: none;
+    padding: 10px;
+    color:gray;
+    border-right: 0.5px solid gray;
+    border-1: 1px solid gray;
+}
+#topmenu a:hover{
+    background-color: lightblue;
+    border-radius: 20px 20px;
+}
+footer{
+       
+        width: 1000px;
+        text-align: center;
+       
+    
+}
